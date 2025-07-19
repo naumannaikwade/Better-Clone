@@ -9,7 +9,7 @@ const IndexStories = () => {
         {/* Left Content Section */}
         <div className="col-6" style={{paddingLeft:"75px"}}>
           <h2 className="display-4 fw-bold mb-4" style={{fontSize: 'clamp(1.5rem, 5vw, 5.5rem)', lineHeight: '1.1'}}>
-            Find out why we're better.
+            Find out why we&apos;re better.
           </h2>
           
           <a href="/b/our-stories" className="btn btn-primary btn-lg rounded-pill px-5 py-3 mb-4 d-block d-md-inline-block" 

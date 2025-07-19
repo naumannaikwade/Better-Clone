@@ -1,5 +1,6 @@
 // pages/mortgage-calculator.js
 import { useState } from "react";
+import Script from 'next/script';
 
 import CalculateMortgageCalculator from "@/components/Calculator-MortageCal";
 import Footer from "@/components/Footer";
@@ -48,7 +49,7 @@ export default function MortgageCalculatorPage() {
         
       </div>
       <Footer />
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" strategy="lazyOnload" ></script>
     </>
   );
 }

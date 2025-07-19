@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
@@ -6,15 +7,17 @@ const Navbar = () => {
     <div style={{ padding: '0 150px', backgroundColor: 'white', position: 'sticky', top: 0, zIndex: 1000 }}>
       <nav className="navbar navbar-expand-lg navbar-light" style={{ padding: '20px 0', backgroundColor: 'white' }}>
         <div className="container-fluid">
-          {/* Left Section: Brand Name */}
-          <a className="navbar-brand" href="/">
-            <img src="media/better-logo-start.svg" alt="Better Logo" />
-          </a>
+          {/* Left Section: Brand Name - Converted to Link */}
+          <Link href="/" passHref legacyBehavior>
+            <a className="navbar-brand">
+              <img src="/media/better-logo-start.svg" alt="Better Logo" />
+            </a>
+          </Link>
 
           {/* Center Section: Graphic */}
           <div className="navbar-center"></div>
 
-          {/* Right Section: Contact Information */}
+          {/* Right Section: Contact Information - Keep as regular anchor */}
           <div className="navbar-contact">
             <a href="tel:4155238837" style={{ textDecoration: 'none', color: '#00A651' }}>
               <div
@@ -28,7 +31,7 @@ const Navbar = () => {
                   backgroundColor: '#a3ffd0',
                 }}
               >
-                <img src="media/call.svg" alt="Call Icon" style={{ width: '20px', height: '20px' }} />
+                <img src="/media/call.svg" alt="Call Icon" style={{ width: '20px', height: '20px' }} />
               </div>
               <span style={{ marginLeft: '5px' }}>Need help? Call 415-523-8837</span>
             </a>

@@ -153,7 +153,7 @@ const Hero = () => {
               className="text-center"
               style={{ width: "100%", fontSize: "40px" }}
             >
-              <span>Hi, I'm Betsy!</span>
+              <span>Hi, I&apos;m Betsy!</span>
               <br />
               What can I help you with?
             </h1>
@@ -310,7 +310,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="benefits text-center">
-            <h3>After a few questions, you'll unlock:</h3>
+            <h3>After a few questions, you&apos;ll unlock:</h3>
             <ul className="text-center">
               <li>
                 <svg

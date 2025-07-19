@@ -1,4 +1,3 @@
-import AboutUs from "@/pages/about-us";
 import React from "react";
 
 const AboutUsHero = () => {
@@ -12,7 +11,7 @@ const AboutUsHero = () => {
         justifyContent: "center",
         backgroundColor: "white",
         boxSizing: "border-box",
-        padding: "150px 275px 150px 275px"
+        padding: "150px 275px"
       }}
     >
       <div
@@ -27,7 +26,7 @@ const AboutUsHero = () => {
           style={{
             fontSize: "30px",
             fontWeight: "bold",
-            margin: "0 0 32px 0",
+            marginBottom: "32px",
             color: "#004733"
           }}
         >
@@ -37,12 +36,11 @@ const AboutUsHero = () => {
           style={{
             fontSize: "40px",
             fontWeight: "bold",
-            margin: "0",
             lineHeight: "1.3",
             color: "#292B29"
           }}
         >
-          We're making homeownership simpler, faster — and most importantly, more
+          We&apos;re making homeownership simpler, faster — and most importantly, more
           accessible for all Americans.
         </h2>
       </div>

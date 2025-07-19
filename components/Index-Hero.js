@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function IndexHero() {
   return (
@@ -40,7 +41,7 @@ export default function IndexHero() {
 
         {/* Button */}
         <div className="text-center mt-4">
-          <a
+          <Link
             href="/start"
             className="btn btn-lg px-5 py-3 rounded-pill fw-bold text-center"
             style={{
@@ -53,7 +54,7 @@ export default function IndexHero() {
             }}
           >
             Start my pre-approval
-          </a>
+          </Link>
 
           {/* Subtext with icon */}
           <div className="mt-3 d-flex align-items-center justify-content-center gap-2 small text-muted">

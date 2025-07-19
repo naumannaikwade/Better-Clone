@@ -40,7 +40,7 @@ const Footer = () => {
                 className="my-3"
               ></Image>
               <p className="text-sm" style={{ marginBottom: "0" }}>
-                We can&apos;t wait to say "Welcome home." Apply 100% online, with
+                We can&apos;t wait to say &quot;Welcome home.&quot; Apply 100% online, with
                 expert customer support.
               </p>
               <Image

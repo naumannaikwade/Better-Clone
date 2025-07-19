@@ -7,7 +7,7 @@ const IndexFAQ = () => {
         {/* Header */}
         <div className="text-center mb-5">
           <h1 className="display-5 fw-bold mb-3">Got questions?</h1>
-          <p className="lead">We've got answers</p>
+          <p className="lead">We&apos;ve got answers</p>
         </div>
 
         {/* Content Grid */}
